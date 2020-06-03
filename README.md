@@ -5,8 +5,8 @@ Estudo de HMTL, CSS, JavaScript com o projeto Ecoleta - RocketSeat
 
 ![alt text](https://raw.githubusercontent.com/phbelucci/NVL_NEXT_LEVEL/master/v1/fase_1.jpg)
 
-```
 HTML
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
