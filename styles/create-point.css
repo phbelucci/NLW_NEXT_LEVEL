@@ -32,6 +32,11 @@
 	height: 24px;
 }
 
+.container-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 form {
 	
 	margin: 80px auto;
