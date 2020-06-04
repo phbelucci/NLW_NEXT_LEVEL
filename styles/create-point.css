@@ -158,3 +158,15 @@ form button:hover {
 
 	color: var(--title-color);
 }
+
+/*quando o .classe esta imediatamente apos o item, sem espaço, ele seleciona o item com a classe*/
+.items-grid li.selected {
+	background: #e1faec;
+	border: 2px solid #34cb79;
+}
+
+.items-grid li img,
+.items-grid li span
+{
+  pointer-events: none;	
+}
