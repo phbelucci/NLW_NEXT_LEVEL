@@ -1,0 +1,26 @@
+{
+  "name": "NLW_NEXT_LEVEL",
+  "version": "1.0.0",
+  "description": "Estudo de HMTL, CSS, JavaScript com o projeto Ecoleta - RocketSeat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phbelucci/NVL_NEXT_LEVEL.git"
+  },
+  "author": "Paulo Henrique Belucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phbelucci/NVL_NEXT_LEVEL/issues"
+  },
+  "homepage": "https://github.com/phbelucci/NVL_NEXT_LEVEL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

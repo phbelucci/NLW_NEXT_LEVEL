@@ -1,0 +1,10 @@
+criar servidor
+
+-- instala o express
+npm install express
+
+-- instala as dependencias do node
+npm install
+
+-- istala a dependencia do nodemon para reiniciar o server auto
+npm install nodemon -D
