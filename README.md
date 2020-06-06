@@ -1,6 +1,7 @@
 # NLW_NEXT_LEVEL
 Estudo de HMTL, CSS, JavaScript com o projeto Ecoleta - RocketSeat
 
+[![RockeSeat](https://img.shields.io/badge/RockeSeat-NLW-blue)](https://nextlevelweek.com/inscricao/1?gclid=Cj0KCQjw_ez2BRCyARIsAJfg-kuwC20s_q0R9ZZRb5lZQx2UYDlcrEDvHV6IH2OUuqudCyjz6_6D0JMaApToEALw_wcB)
 [![Node](https://img.shields.io/badge/npm%40latest-v6.3.0-blue)](https://nodejs.org/en/)
 [![Nunjucks](https://img.shields.io/badge/Nunjucks-v3.2.1-green)](https://mozilla.github.io/nunjucks/getting-started.html)
 [![Nodemon](https://img.shields.io/badge/Nodemon-v2.0.4-red)](https://www.npmjs.com/package/nodemon)
