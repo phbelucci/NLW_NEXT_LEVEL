@@ -81,6 +81,14 @@ db.serialize(() => {
     //     console.log("Registro deletado com sucesso") 
     // })
 
+
+    // db.all(`select * from places where lower(city) like "%lar%";`, function(err, rows){
+    //     if(err){
+    //         return console.log(err)
+    //     }
+    //     console.log("Os dados na tabela são: ")
+    //     console.log(rows)
+    // })
 })
 
 module.exports = db
