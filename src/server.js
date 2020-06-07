@@ -67,15 +67,23 @@ try {
     })
 
     server.get("/search-results", (req, res) => {
+        const search = req.query.search
+
+        if(search === ""){
+            return res.render("search-results.html",{countElements : 0 })
+        }
 
         //pegar dados do banco
-        db.all('select * from places', function(err, rows){
+        db.all(`select * from places where lower(city) like "%${search}%";`, function(err, rows){
             if(err){
                 return console.log(err)
             }
+            console.log(search)
+            console.log(rows)
             const countElements = rows.length
-            return res.render("search-results.html",{places : rows, countElements})
+            return res.render("search-results.html",{places : rows, countElements : countElements})
         })
+        
     })
 
 } catch {
